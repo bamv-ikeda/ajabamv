@@ -1,6 +1,0 @@
-## プルリクテンプレートsample
-
-test
-
-- test
-- test
