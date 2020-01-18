@@ -1,9 +1,7 @@
 ---
 name: 不具合・バグ報告
 about: 「不具合やバグの報告」用テンプレート
-title: ''
-labels: ''
-assignees: ''
+labels: 'テスト'
 ---
 
 ## 概要
