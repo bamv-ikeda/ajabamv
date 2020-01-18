@@ -1,9 +1,7 @@
 ---
 name: 提案・要望
 about: 「追加機能や機能改善の提案や要望」用テンプレート
-title: ''
-labels: ''
-assignees: ''
+labels: '提案・要望'
 ---
 
 ## 背景と目的
