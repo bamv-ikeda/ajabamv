@@ -1,5 +1,4 @@
 # プルリクエスト(Pull Request)の作成手順
-
 ## 1.マージ先を指定する
 
 - マージ元`compare:`が正しいことを確認する（主にfeatureブランチ）。
@@ -36,27 +35,34 @@
 - [プルリクエストの作成方法](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request#creating-the-pull-request)
 - [GitHubでのプルリクエスト活用方法まとめ](https://ics.media/entry/14449/)
 
-## レビュー担当者の対応
 
-### 1. レビューを実施し、問題がある箇所についてはコメントする
+# レビュー担当者の対応
+## 1. レビューの実施
+レビューを実施し、問題がある箇所についてはコメントする
 
 #### 参考URL
 - [プルリクエストへコメントする](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/commenting-on-a-pull-request)
 
-### 2. 自分が一人目のレビュー担当者であれば、「File Changed」タブ「Review Changes」ボタンの「Approve」を選択し、プルリクを承認する
+## 2.プルリクの承認・マージ
+- 自分が一人目のレビュー担当者であれば、「File Changed」タブ「Review Changes」ボタンの「Approve」を選択し、プルリクを承認する
+
 #### 参考URL
 - [必須レビューでのプルリクエストの承認](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/approving-a-pull-request-with-required-reviews)
 
-### 3. 自分が最後のレビュー担当であれば、マージ先が正しいことを確認し、「Merge Pull Request」をクリックしマージを行う。
-### 4. マージ後、マージ元ブランチは特に必要がなければ削除する
+- 自分が最後のレビュー担当であれば、マージ先が正しいことを確認し、「Merge Pull Request」をクリックしマージを行う。
 
-### :warning: レビュー担当者に求めてはいけないこと
+#### 参考URL
+- [プルリクエストをマージする](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request)
+
+## 3.マージ後、マージ元ブランチは特に必要がなければ削除する
+
+## :warning: レビュー担当者に求めてはいけないこと
 - バグを発見してくれること
 - 仕様通りに動作すること
 
 -> 実装者がしっかりと仕様通りに動作すること、バグがないことを確認した上でレビュー依頼を出すこと
 
-### プルリクに記載すべき情報
+## プルリクに記載すべき情報
 
 ルール化することによる弊害が大きいため、ルールの設定はしません。  
 :information_source: 記載すべき情報については下記URLが参考になるので意識しておくこと。
@@ -84,7 +90,7 @@
 >* 関連
 >    * 関係するプルリクエスト
 
-## コンフリクト対応について
+## コンフリクト時の対応について
 
 - プルリクを出した際にコンフリクトが発生した場合は、ローカルで修正を行い動作確認を行った後、修正をpushすること。
     - 不明点があれば、コンフリクトが発生した箇所の修正担当者に確認を行い修正を行うこと。（自明な修正であれば自分で対応しても良い）
