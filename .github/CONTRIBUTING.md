@@ -51,10 +51,10 @@
 
 - 自分が最後のレビュー担当であれば、マージ先が正しいことを確認し、「Merge Pull Request」をクリックしマージを行う。
 
+※マージ後、マージ元ブランチは特に必要がなければ削除する
+
 #### 参考URL
 - [プルリクエストをマージする](https://help.github.com/ja/github/collaborating-with-issues-and-pull-requests/merging-a-pull-request)
-
-## 3.マージ後、マージ元ブランチは特に必要がなければ削除する
 
 ## :warning: レビュー担当者に求めてはいけないこと
 - バグを発見してくれること
